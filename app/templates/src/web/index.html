@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{> layout/css }}
+</head>
+
+<body>
+<div class="well" style="width: 50%; margin: 0 auto" data-bind="visible: false">Loading...</div>
+<div id="page" style="display: none" data-bind="visible: true">
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+            <span id="logo"><i class="icon-star"></i></span>
+            Your Shiny New Website</a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li>
+                <a href=#>Home</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="container">
+
+Hello world!
+
+</div>
+
+
+{{> layout/js }}
+
+</div>
+</body>
+</html>
