@@ -16,7 +16,6 @@
     "grunt-shell": "~0.5.0",
     "grunt-contrib-less": "~0.7.0",
     "latte": "*",
-    "browserify": "~2.33.1",
     "grunt-browserify": "~1.2.8"
   },
   "dependencies": {
